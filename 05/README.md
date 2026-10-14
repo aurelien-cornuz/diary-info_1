@@ -92,7 +92,6 @@ int main(int argc, char * argv[]) {
 void help() {
     printf("Version 1.2.3\n"); 
     printf("Pour utiliser ce programme... il faut... bref, de l'aide\n");
-    return 0;
 }
 
 int main(int argc, char* argv[]) {
