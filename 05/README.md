@@ -1,7 +1,8 @@
 # Semaine 05/16
 
-- [ ] Lecture des arguments et de l'entrée standard
-- [ ] Variables 
+- [x] Lecture des arguments et de l'entrée standard
+- [x] Variables 
+- [ ] Travail dirigé : nombre d'armstrong 
 
 ## Variable 
 
@@ -105,3 +106,8 @@ int main(int argc, char* argv[]) {
         help();
     }
 }
+```
+
+## Nombre d'Armstrong
+
+Vous pouvez consulter l'algorithme en drawio : [armstrong.drawio](armstrong.drawio)
