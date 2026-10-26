@@ -1,19 +1,19 @@
 # Semaine 05/16
 
 - [x] Lecture des arguments et de l'entrée standard
-- [x] Variables 
-- [ ] Travail dirigé : nombre d'armstrong 
+- [x] Variables
+- [x] Travail dirigé : nombre d'armstrong
 
-## Variable 
+## Variable
 
-C'est quoi une variable en informatique ? 
+C'est quoi une variable en informatique ?
 
-- Une valeur 
+- Une valeur
 - Un symbol (identifiant p.ex: les_pommes, the_answer, i, toto)
 - Un espace mémoire réservé
 - Un type de stockage (int, float, double, chaîne de caractère...)
 - Une durée de vie (visibilité)
-  
+
 ## Type de donnée
 
 ### Entiers
@@ -23,9 +23,9 @@ C'est quoi une variable en informatique ?
 ```c
 unsigned char
 unsigned short
-unsigned int 
+unsigned int
 unsigned long int
-unsigned long long int 
+unsigned long long int
 
 #include <stdint.h>
 uint8_t
@@ -39,9 +39,9 @@ uint64_t
 ```c
 signed char
 signed short
-signed int 
+signed int
 signed long int
-signed long long int 
+signed long long int
 
 #include <stdint.h>
 int8_t
@@ -65,7 +65,7 @@ long double
 
 int main(int argc, char * argv[]) {
     // Lecture sur les arguments
-    int i = 0;    
+    int i = 0;
     if (argc > 1) {
         if (sscanf(argv[1], "%d", &i) != 1) {
             printf("Erreur!\n");
@@ -91,14 +91,14 @@ int main(int argc, char * argv[]) {
 
 ```c
 void help() {
-    printf("Version 1.2.3\n"); 
+    printf("Version 1.2.3\n");
     printf("Pour utiliser ce programme... il faut... bref, de l'aide\n");
 }
 
 int main(int argc, char* argv[]) {
 
     if (argc > 1 && argv[1][0] == '-' && argv[1][1] === 'v') {
-        printf("Version 1.2.3\n"); 
+        printf("Version 1.2.3\n");
         return 0;
     }
 
