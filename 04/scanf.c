@@ -21,7 +21,7 @@ int main() {
     scanf("%d", &value);
 
     if (c == 'b') {
-        printf("Bin value %032b\n", value);
+        printf("Bin value 0b%032b\n", value);
     }
     if (c == 'h') {
         printf("Hex value 0x%08x\n", value);
