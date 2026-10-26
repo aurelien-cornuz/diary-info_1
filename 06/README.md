@@ -1,14 +1,76 @@
 # Semaine 06/16
 
 - [ ] Structures de contrôle
-  - [ ] if / else
-  - [ ] if / else if / else
-  - [ ] switch / case
-  - [ ] while
-  - [ ] for
-  - [ ] do / while
-  - [ ] break / continue
-  - [ ] goto
+  - [.] if / else
+  - [.] if / else if / else
+  - [.] switch / case
+  - [.] while
+  - [.] for
+  - [.] do / while
+  - [.] break 
+  - [.] goto
+
+
+## Choix 
+
+```c
+if ( /* condition */ ) { /* code si vrai */ }
+if ( /* condition */ ) { /* code si vrai */ } else { /* code si faux */ }
+
+bool a = true; 
+bool b = false;
+
+if ( a ) 
+{ 
+    if ( b ) 
+    { 
+        printf("true");
+    } 
+}
+
+if ( a && b ) 
+{ 
+  printf("true");
+}
+
+
+if ( /* condition */ ) { 
+    /* code si vrai */ 
+} 
+else if ( /* condition */ ) { 
+    /* code si vrai */ 
+} 
+else { 
+    /* code si faux */ 
+}
+
+
+
+```
+
+## Boucles
+
+```c
+// GOTO a éviter
+int i = 0;
+loop: 
+/*code*/;
+i++;
+if (i < 10) goto loop;
+
+// Boucle for
+// On l'utilise si on connaît a priori le nombre d'exécution
+for (int i = 0; i < 10; i++) { /*code*/ }
+
+// Boucle while
+int i = 0;
+while (i < 10) { /*code*/; i++; }
+
+// Boucle Do While
+int i = 0;
+do { /*code*/; i++; } while ( i < 10 )
+
+```
 
 ## Exercice : deviner un nombre
 
