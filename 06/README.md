@@ -10,7 +10,6 @@
   - [.] break 
   - [.] goto
 
-
 ## Choix 
 
 ```c
@@ -101,3 +100,33 @@ Bravo ! Vous avez trouvé le nombre 69 en 4 essais.
 >     ...
 > }
 > ```
+
+## Exercice : Triangle 
+
+### Première partie : triangle simple
+
+Écrire un programme qui dessine un triangle rectangle de hauteur et de largeur N où N est donné en argument. 
+
+```bash
+./triangle 5
+*
+**
+***
+****
+*****
+```
+
+### Deuxième partie : mirroir horizontal
+
+Si la valeur transmise est négative, on aligne le triangle à droite:
+
+```bash
+./triangle -5
+    *
+   **
+  ***
+ ****
+*****
+```
+
+La solution est disponible [ici](triangle.c)
