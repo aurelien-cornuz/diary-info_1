@@ -3,7 +3,7 @@
  */
 #include <stdio.h>
 int main() {
-    int size = 0;
+    int size = 5;
     if(scanf("%d", &size) != 1) return 1;
 
     for (int row = 0; row < size; row++) {
